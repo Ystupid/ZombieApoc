@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets_Prefabs_KitchenWare
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets_Prefabs_KitchenWare
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 91685bda593bdc54a84529c8768bb676
+  m_SerializeEntries:
+  - m_GUID: fc5744022757aa54987ebfc669ac4d7e
+    m_Address: KitchenWare_Board
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1b414b84df2b4947a5837d739660380
+    m_Address: KitchenWare_PanEntity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f26c426fcb1dda042bd77911869e5afb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5b40fa99077d8c049ae13a18f91a385c, type: 2}
+    - {fileID: 11400000, guid: 4f0bc6f983fafeb4fb8a5696f5b5269d, type: 2}

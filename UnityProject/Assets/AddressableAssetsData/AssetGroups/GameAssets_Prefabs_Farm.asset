@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets_Prefabs_Farm
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets_Prefabs_Farm
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 71f2b0482fd635e4d94a7ea11b1a7ce8
+  m_SerializeEntries:
+  - m_GUID: baf2a75c2e6c3324fb840eefd2ea5e37
+    m_Address: Farm_SoilEntity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f26c426fcb1dda042bd77911869e5afb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d4f2c69900486c544abf560e845f9cdf, type: 2}
+    - {fileID: 11400000, guid: 3522f35f0f1af5d46b1f76d22d4f4a0a, type: 2}

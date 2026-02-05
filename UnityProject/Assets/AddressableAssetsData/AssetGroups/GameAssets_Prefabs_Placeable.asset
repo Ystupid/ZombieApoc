@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameAssets_Prefabs_Placeable
+  m_EditorClassIdentifier: 
+  m_GroupName: GameAssets_Prefabs_Placeable
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8c461671c9483e1428643d01996957d9
+  m_SerializeEntries:
+  - m_GUID: 86ffdd97ba8d027499537a935580dc08
+    m_Address: Placeable_CookingBenchEntity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a1f396487e55854cbf29adedf921263
+    m_Address: Placeable_Table
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f26c426fcb1dda042bd77911869e5afb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d4dd24cd8033e4b438ab7e8f30ad826a, type: 2}
+    - {fileID: 11400000, guid: 7a435de1dbf6ea044902562a755a3106, type: 2}
