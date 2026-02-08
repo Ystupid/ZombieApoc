@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine.Events;
-using static UnityEngine.CullingGroup;
 
 public class StateEntity<TState> : EntityBase where TState : struct, IConvertible, IComparable
 {

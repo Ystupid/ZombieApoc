@@ -17,18 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 534446d47e2734246baa31a4961573d4
   m_SerializeEntries:
-  - m_GUID: 41c157f6968d436469f873ea7c3e168b
-    m_Address: Scenes_DiningRoom
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5357f481b480ca459e31aa808214bba
     m_Address: Scenes_None
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3870509e7013c3344bc435d5d433d806
-    m_Address: Scenes_Canteen
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

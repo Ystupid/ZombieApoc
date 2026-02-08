@@ -48,6 +48,16 @@ public class StateMachine<TKey> where TKey : struct, IConvertible, IComparable
     }
 
     /// <summary>
+    /// 查询状态
+    /// </summary>
+    /// <param name="stateType"></param>
+    /// <returns></returns>
+    public bool HasState(TKey stateType)
+    {
+        return _stateMap.ContainsKey(stateType);
+    }
+
+    /// <summary>
     /// 对状态机的初始化操作
     /// </summary>
     public void Init(TKey stateType, ITuple param = null)

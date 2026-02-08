@@ -25,6 +25,7 @@ public class SystemTreeConfig
                     new Type[]
                     {
                         typeof(BattleEntitySys),
+                        typeof(BattleResSys),
                     })
             }),
         new List<ISystemStateTransition>
