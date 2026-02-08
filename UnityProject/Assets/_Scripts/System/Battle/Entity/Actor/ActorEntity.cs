@@ -13,12 +13,12 @@ public class ActorEntity : StateEntity<EActorState>
     protected KeyEventTrigger _keyEventTrigger;
     public KeyEventTrigger KeyEventTrigger => _keyEventTrigger;
 
-    public void AddKeyEvent(UnityAction<EKeyEvent> callback)
+    public void AddKeyEvent(UnityAction<KeyEventInfo> callback)
     {
         _keyEventTrigger.OnKeyEventTrigger.AddListener(callback);
     }
 
-    public void RemoveKeyEvent(UnityAction<EKeyEvent> callback)
+    public void RemoveKeyEvent(UnityAction<KeyEventInfo> callback)
     {
         _keyEventTrigger.OnKeyEventTrigger.RemoveListener(callback);
     }

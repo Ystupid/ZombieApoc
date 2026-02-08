@@ -6,4 +6,6 @@ public enum EKeyEvent
     None = 0,
 
     Shoot,
+
+    SetNextStep,
 }

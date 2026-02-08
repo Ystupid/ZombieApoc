@@ -92,9 +92,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.5
-    functionName: Trigger
+    functionName: OnEventTrigger
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11400000, guid: def619ce4e6c665449273d93b4961a01, type: 2}
     floatParameter: 0
     intParameter: 1
     messageOptions: 0

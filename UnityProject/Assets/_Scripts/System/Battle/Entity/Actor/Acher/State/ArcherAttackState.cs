@@ -25,9 +25,9 @@ public class ArcherAttackState : ActorAttackState
         Owner.RemoveKeyEvent(OnKeyEvent);
     }
 
-    private void OnKeyEvent(EKeyEvent key)
+    private void OnKeyEvent(KeyEventInfo info)
     {
-        if (key == EKeyEvent.Shoot)
+        if (info.Type == EKeyEvent.Shoot)
         {
             OnShoot();
         }
