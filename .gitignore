@@ -6,3 +6,4 @@
 UnityProject/.vsconfig
 *.csproj
 *.sln
+/UnityProject/Temp

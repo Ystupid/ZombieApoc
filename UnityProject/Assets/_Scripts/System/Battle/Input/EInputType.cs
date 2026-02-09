@@ -5,5 +5,9 @@ public enum EInputType
 {
     SetLeftJoystickAxis,
 
+    Attack,
+
+    Guard,
+
     Count,
 }

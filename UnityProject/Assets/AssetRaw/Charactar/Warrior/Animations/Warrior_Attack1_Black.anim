@@ -80,9 +80,30 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.1
-    functionName: OnEventTrigger2
+    functionName: OnEventTrigger3
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: def619ce4e6c665449273d93b4961a01, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.2
+    functionName: OnEventTrigger3
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: fe9e5911f362a8746b7433e54d56e789, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.3
+    functionName: OnEventTrigger3
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 19954bbd7cc13f549945ef439da60f57, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.4
+    functionName: OnEventTrigger3
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: da686b375e4357e4fa628e2c83600afe, type: 2}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

@@ -10,6 +10,7 @@ public class ArcherEntity : ActorEntity
         StateMachine.AddState(EActorState.Idle, new ActorIdleState(this));
         StateMachine.AddState(EActorState.Move, new ActorMoveState(this));
         StateMachine.AddState(EActorState.Attack, new ArcherAttackState(this));
+        StateMachine.AddState(EActorState.Hurt, new ActorHurtState(this));
         StateMachine.Init(EActorState.Idle);
     }
 }

@@ -12,6 +12,8 @@ public class PlayerInput
         _inputValues = new short[(int)EInputType.Count];
     }
 
+    public void ReadFromPlayer(GamePlayer player) { }
+
     public void AddInput(InputInfo info)
     {
         _inputStates[(int)info.InputType] = true;

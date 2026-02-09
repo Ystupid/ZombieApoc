@@ -24,22 +24,23 @@ public class KeyEventTrigger : MonoBehaviour
     {
         if (param.objectReferenceParameter is KeyEventConfig config)
         {
-            var info = new KeyEventInfo
-            {
-                Type = config.Type,
-                IntValue = config.IntValue,
-                FloatValue = config.FloatValue,
-            };
-
-            OnKeyEventTrigger?.Invoke(info);
+            OnKeyEventTrigger?.Invoke(config.Info);
         }
     }
 
-    public void OnEventTrigger3(KeyEventInfo param)
+    public void OnEventTrigger3(UnityEngine.Object obj)
+    {
+        if (obj is KeyEventConfig config)
+        {
+            OnKeyEventTrigger?.Invoke(config.Info);
+        }
+    }
+
+    public void OnEventTrigger4(KeyEventInfo param)
     {
     }
 
-    public void OnEventTrigger4(int intVal, float floatVal, string strVal, GameObject objVal)
+    public void OnEventTrigger5(int intVal, float floatVal, string strVal, GameObject objVal)
     {
     }
 }

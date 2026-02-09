@@ -36,19 +36,19 @@ public static class AttackTriggerCfg
         return actor.StateMachine.HasState(EActorState.Attack);
     }
 
-    public static bool NeedCutout(ActorEntity actor)
+    public static bool NeedCutout(ActorEntity actor, int animHash)
     {
         var nextInfo = actor.Animator.GetNextAnimatorStateInfo(0);
         var stateInfo = actor.Animator.GetCurrentAnimatorStateInfo(0);
 
-        if (stateInfo.shortNameHash == AnimHash.Attack)
+        if (stateInfo.shortNameHash == animHash)
         {
             if (stateInfo.normalizedTime >= 0.95f)
             {
                 return true;
             }
         }
-        else if (nextInfo.shortNameHash == AnimHash.Attack)
+        else if (nextInfo.shortNameHash == animHash)
         {
             if (nextInfo.normalizedTime >= 0.95f)
             {

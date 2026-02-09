@@ -9,7 +9,7 @@ public class WarriorEntity : ActorEntity
 
         StateMachine.AddState(EActorState.Idle, new ActorIdleState(this));
         StateMachine.AddState(EActorState.Move, new ActorMoveState(this));
-        StateMachine.AddState(EActorState.Attack, new ActorAttackState(this));
+        StateMachine.AddState(EActorState.Attack, new WarriorAttackState(this));
         StateMachine.AddState(EActorState.Guard, new ActorGuardState(this));
         StateMachine.Init(EActorState.Idle);
     }

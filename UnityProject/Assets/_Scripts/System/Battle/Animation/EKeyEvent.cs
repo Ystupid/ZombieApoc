@@ -7,5 +7,15 @@ public enum EKeyEvent
 
     Shoot,
 
-    SetNextStep,
+    BreakBegin,
+
+    BreakEnd,
+
+    HitBoxBegin,
+
+    HitBoxEnd,
+
+    ComboBegin,
+
+    ComboEnd,
 }

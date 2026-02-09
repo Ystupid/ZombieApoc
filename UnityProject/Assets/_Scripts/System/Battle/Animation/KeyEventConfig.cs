@@ -7,7 +7,5 @@ using UnityEngine;
 /// </summary>
 public class KeyEventConfig : ScriptableObject
 {
-    public EKeyEvent Type;
-    public int IntValue;
-    public float FloatValue;
+    public KeyEventInfo Info;
 }

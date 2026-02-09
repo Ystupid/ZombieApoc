@@ -17,7 +17,7 @@ public class ActorAttackState : EntityStateBase<EActorState, ActorEntity>
     {
         base.OnUpdate();
 
-        if (AttackTriggerCfg.NeedCutout(Owner))
+        if (AttackTriggerCfg.NeedCutout(Owner, AnimHash.Attack))
         {
             Owner.ChangeState(EActorState.Idle);
             return;

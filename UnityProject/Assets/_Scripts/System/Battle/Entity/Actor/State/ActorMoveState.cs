@@ -28,6 +28,11 @@ public class ActorMoveState : EntityStateBase<EActorState, ActorEntity>
             return;
         }
 
+        if (HealTriggerCfg.TryEnterState(Owner))
+        {
+            return;
+        }
+
         if (!MoveTriggerCfg.HasInput(Owner))
         {
             Owner.ChangeState(EActorState.Idle);

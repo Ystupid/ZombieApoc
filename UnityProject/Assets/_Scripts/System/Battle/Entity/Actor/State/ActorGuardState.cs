@@ -18,7 +18,7 @@ public class ActorGuardState : EntityStateBase<EActorState, ActorEntity>
     {
         base.OnUpdate();
 
-        if(!GuardTriggerCfg.HasInput(Owner))
+        if (!GuardTriggerCfg.HasInput(Owner))
         {
             Owner.ChangeState(EActorState.Idle);
         }

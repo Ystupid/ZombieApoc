@@ -4,6 +4,11 @@ using UnityEngine;
 
 public static class TransformExtensions
 {
+    public static T GetComponentSafe<T>(this Transform transform) where T : Component
+    {
+        return transform.gameObject.GetComponentSafe<T>();
+    }
+
     public static T GetComponentInParent<T>(this Transform transform, bool recursive = true)
     {
         var root = transform.parent;

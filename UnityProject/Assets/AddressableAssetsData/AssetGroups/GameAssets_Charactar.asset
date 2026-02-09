@@ -27,6 +27,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22756ba90688994f9b08a7c92f1f7be
+    m_Address: Charactar_WarriorEntity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: f26c426fcb1dda042bd77911869e5afb, type: 2}
   m_SchemaSet:

@@ -36,15 +36,15 @@ public static class MoveTriggerCfg
         return actor.StateMachine.HasState(EActorState.Move);
     }
 
-    public static Vector2 GetMovement(ActorEntity actor)
+    public static Vector3 GetMovement(ActorEntity actor)
     {
-        var moveMent = new Vector2
+        var moveMent = new Vector3
         {
             x = Input.GetAxis("Horizontal"),
-            y = Input.GetAxis("Vertical"),
+            z = Input.GetAxis("Vertical"),
         };
 
-        return moveMent;
+        return moveMent * 2;
     }
 
     public static void Move(ActorEntity actor)
@@ -52,5 +52,13 @@ public static class MoveTriggerCfg
         var moveMent = GetMovement(actor);
 
         actor.transform.Translate(moveMent * Time.deltaTime);
+
+        var signedAngle = Vector2.SignedAngle(Vector2.up, moveMent);
+
+        var localScale = actor.SpriteRenderer.transform.localScale;
+
+        localScale.x = signedAngle >= 0 ? -1 : 1;
+
+        actor.SpriteRenderer.transform.localScale = localScale;
     }
 }
